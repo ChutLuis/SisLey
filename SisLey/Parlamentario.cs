@@ -66,10 +66,9 @@ namespace SisLey
                 Conexion create1 = new Conexion();
                 create1.realizarconexion();
                 MySqlCommand comando = create1.crearComando();  
-                comando.CommandText = "Insert into parlamentarios(nombre,apellido,sistema) values(@nombre, @apellido, @sistema)";
+                comando.CommandText = "Insert into parlamentarios(nombre,apellido) values(@nombre, @apellido)";
                 comando.Parameters.Add("@nombre", MySqlDbType.VarChar, 45).Value = sis1.getNombre();
                 comando.Parameters.Add("@apellido", MySqlDbType.VarChar, 45).Value = sis1.getApellido();
-                comando.Parameters.Add("@sistema", MySqlDbType.Int32, 11).Value = sis1.getidSistema();
                 comando.ExecuteNonQuery();
             }
             catch (Exception e)

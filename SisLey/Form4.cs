@@ -19,17 +19,14 @@ namespace SisLey
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Parlamentario pr1 = new Parlamentario();
-            String nombre;
-            String Apellido;
-            
-            nombre = textBox1.Text;
-            Apellido = textBox2.Text;
-            MessageBox.Show(nombre);
-            MessageBox.Show(Apellido);
-            pr1.setNombre(nombre);
-            pr1.setApellidp(Apellido);
-            pr1.insertarParlamentario(pr1);
+            //Parlamentario pr1 = new Parlamentario();
+            //String nombre;
+            //String Apellido;
+            //nombre = textBox1.Text;
+            //Apellido = textBox2.Text;
+            //pr1.setNombre(nombre);
+            //pr1.setApellidp(Apellido);
+            //pr1.insertarParlamentario(pr1);
             
         }
 

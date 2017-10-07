@@ -20,13 +20,13 @@ namespace SisLey
         
         private void btnSave_Click(object sender, EventArgs e)
         {
-            Sistem sis1 = new Sistem();
-            String nombre;
-            nombre = txtNombre.Text;
-            MessageBox.Show(nombre);
-            sis1.setNombre(nombre);
-            sis1.insertarSistema(sis1);
-            
+            //Sistem sis1 = new Sistem();
+            //String nombre;
+            //nombre = txtNombre.Text;
+            //MessageBox.Show(nombre);
+            //sis1.setNombre(nombre);
+            //sis1.insertarSistema(sis1);
+            this.Hide();
 
         }
 
