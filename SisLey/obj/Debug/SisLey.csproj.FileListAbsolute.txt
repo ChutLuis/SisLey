@@ -2,9 +2,10 @@ c:\users\luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\SisL
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\SisLey.exe
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\SisLey.pdb
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.csprojResolveAssemblyReference.cache
-C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form1.resources
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Properties.Resources.resources
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.csproj.GenerateResource.Cache
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.exe
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.pdb
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form2.resources
+C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\MySql.Data.dll
+C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\MySql.Data.xml

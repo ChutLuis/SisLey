@@ -10,14 +10,14 @@ namespace SisLey
     {
         private String Ley;
         // This Will return the actual value of the Law
-        public String getPass()
+        public String getLaw()
         {
             return Ley;
         }
         //This Will set a new value to the Law
-        public void SetPass(String NewPass)
+        public void SetPass(String NewLaw)
         {
-            Ley = NewPass;
+            Ley = NewLaw;
         }
 
     }

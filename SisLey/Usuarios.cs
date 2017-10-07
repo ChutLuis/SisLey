@@ -8,8 +8,8 @@ namespace SisLey
 {
     public class Usuarios
     {
-        private String User="Luis";
-        private String PassWord="SF12345";
+        private String User;
+        private String PassWord;
         // This Will return the actual value of the user 
         public String getUser()
         {
