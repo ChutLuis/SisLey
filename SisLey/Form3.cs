@@ -10,25 +10,19 @@ using System.Windows.Forms;
 
 namespace SisLey
 {
-    public partial class Form2 : Form
+    public partial class Form3 : Form
     {
-        public Form2()
+        public Form3()
         {
             InitializeComponent();
-           
-            
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form3 fm3 = new Form3();
+            Form4 fm4 = new Form4();
             this.Hide();
-            fm3.Show();
+            fm4.Show();
+
         }
     }
 }

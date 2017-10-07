@@ -4,14 +4,29 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
+using System.Windows.Forms;
 
 namespace SisLey
 {
-    class Sistem
+    public class Sistem
     {
+        private Conexion create1;
         private int idSistema;
         private String nombre;
         private DateTime fechacreacion;
+
+        internal Conexion Create1
+        {
+            get
+            {
+                return create1;
+            }
+
+            set
+            {
+                create1 = new Conexion() ;
+            }
+        }
 
         public int getidSistema()
         {
@@ -40,12 +55,21 @@ namespace SisLey
 
         public void insertarSistema(Sistem sis1)
         {
-            Conexion create1 = new Conexion();
-            create1.realizarconexion();
-            MySqlCommand comando = create1.crearComando();
-            comando.CommandText = "Insert into Sistema (nombre) values (@nombre)";
-            comando.Parameters.Add("@nombre",MySqlDbType.VarChar,45).Value = sis1.getNombre();
-            comando.ExecuteNonQuery();
+            try
+            {
+                Conexion create1 = new Conexion();
+                create1.realizarconexion();
+                MySqlCommand comando = create1.crearComando();
+                comando.CommandText = "Insert into Sistema (nombre) values (@nombre)";
+                comando.Parameters.Add("@nombre", MySqlDbType.VarChar, 45).Value = sis1.getNombre();
+                comando.ExecuteNonQuery();
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show("El error ocurrido: " + e);
+                throw;
+            }
+            
 
         }
     }

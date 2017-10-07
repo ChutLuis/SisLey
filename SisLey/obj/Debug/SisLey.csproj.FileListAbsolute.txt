@@ -9,3 +9,6 @@ C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisL
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form2.resources
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\MySql.Data.dll
 C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\bin\Debug\MySql.Data.xml
+C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form1.resources
+C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form3.resources
+C:\Users\Luis\documents\visual studio 2015\Projects\SisLey\SisLey\obj\Debug\SisLey.Form4.resources
