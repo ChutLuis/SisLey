@@ -16,7 +16,7 @@ namespace SisLey
         {
             InitializeComponent();
         }
-
+        
         private void button1_Click(object sender, EventArgs e)
         {
             //Parlamentario pr1 = new Parlamentario();
@@ -27,15 +27,11 @@ namespace SisLey
             //pr1.setNombre(nombre);
             //pr1.setApellidp(Apellido);
             //pr1.insertarParlamentario(pr1);
+
             
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox2_TextChanged(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
 
         }

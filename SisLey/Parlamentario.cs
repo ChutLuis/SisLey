@@ -8,7 +8,7 @@ using System.Windows.Forms;
 
 namespace SisLey
 {
-    public class Parlamentario : Sistem
+    public class Parlamentario : Sistem 
     {
         
         private int idParlamentario;
@@ -17,7 +17,16 @@ namespace SisLey
         private DateTime Creacion;
         private int idSistema;
 
-      public int getId()
+        public Parlamentario(int idParlamentario, string nombre, string apellido, DateTime creacion)
+        {
+            this.idParlamentario = idParlamentario;
+            this.nombre = nombre;
+            this.apellido = apellido;
+            Creacion = creacion;
+            this.idSistema = getIdSis();
+        }
+
+        public int getId()
         {
             return idParlamentario;
         }
@@ -33,11 +42,11 @@ namespace SisLey
         {
             idSistema = rid.getidSistema();
         }
-        public void setNombre(String newname)
+        public void setNombre1(String newname)
         {
             nombre = newname;
         }
-        public String getNombre()
+        public String getNombre1()
         {
             return nombre;
         }

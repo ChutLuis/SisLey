@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace SisLey
 {
-    class Lista
+    public class Lista
     {
     }
 }

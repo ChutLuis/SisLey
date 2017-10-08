@@ -78,6 +78,7 @@
       <DependentUpon>Form4.cs</DependentUpon>
     </Compile>
     <Compile Include="Leyes.cs" />
+    <Compile Include="Lista.cs" />
     <Compile Include="Parlamentario.cs" />
     <Compile Include="Sistem.cs" />
     <Compile Include="Usuarios.cs" />

@@ -26,6 +26,7 @@ namespace SisLey
 
         private void button1_Click(object sender, EventArgs e)
         {
+            List<Parlamentario> cx = new List<Parlamentario>();
             Form3 fm3 = new Form3();
             this.Hide();
             fm3.Show();
