@@ -17,6 +17,23 @@ namespace SisLey
         private DateTime Creacion;
         private int idSistema;
 
+        public int IdSistema
+        {
+            get
+            {
+                return idSistema;
+            }
+
+            set
+            {
+                idSistema = value;
+            }
+        }
+        public Parlamentario()
+        {
+
+        }
+
         public Parlamentario(int idParlamentario, string nombre, string apellido, DateTime creacion)
         {
             this.idParlamentario = idParlamentario;
@@ -75,9 +92,10 @@ namespace SisLey
                 Conexion create1 = new Conexion();
                 create1.realizarconexion();
                 MySqlCommand comando = create1.crearComando();  
-                comando.CommandText = "Insert into parlamentarios(nombre,apellido) values(@nombre, @apellido)";
+                comando.CommandText = "Insert into parlamentarios(nombre,apellido,sistema) values(@nombre, @apellido,@sistema)";
                 comando.Parameters.Add("@nombre", MySqlDbType.VarChar, 45).Value = sis1.getNombre();
                 comando.Parameters.Add("@apellido", MySqlDbType.VarChar, 45).Value = sis1.getApellido();
+                comando.Parameters.Add("@sistema", MySqlDbType.Int32, 11).Value = sis1.IdSistema;
                 comando.ExecuteNonQuery();
             }
             catch (Exception e)
